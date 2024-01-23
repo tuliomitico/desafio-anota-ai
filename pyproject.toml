@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "desafio-anota-ai"
+version = "0.1.0"
+description = ""
+authors = ["tuliomitico <tuliofc2008@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask-smorest="~0.42"
+flask="~2.1.0"
+flask-mongoengine = "^1.0.0"
+Werkzeug = "2.3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
